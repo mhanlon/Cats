@@ -13,6 +13,7 @@
 		8591ACE625D2C333007D1765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8591ACE425D2C333007D1765 /* Main.storyboard */; };
 		8591ACE825D2C335007D1765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8591ACE725D2C335007D1765 /* Assets.xcassets */; };
 		8591ACEB25D2C335007D1765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8591ACE925D2C335007D1765 /* LaunchScreen.storyboard */; };
+		8591ACF325D2D8EE007D1765 /* MyCatEmotionClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8591ACF225D2D8EE007D1765 /* MyCatEmotionClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8591ACE725D2C335007D1765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8591ACEA25D2C335007D1765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8591ACEC25D2C335007D1765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8591ACF225D2D8EE007D1765 /* MyCatEmotionClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyCatEmotionClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8591ACE725D2C335007D1765 /* Assets.xcassets */,
 				8591ACE925D2C335007D1765 /* LaunchScreen.storyboard */,
 				8591ACEC25D2C335007D1765 /* Info.plist */,
+				8591ACF225D2D8EE007D1765 /* MyCatEmotionClassifier.mlmodel */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8591ACF325D2D8EE007D1765 /* MyCatEmotionClassifier.mlmodel in Sources */,
 				8591ACE325D2C333007D1765 /* ViewController.swift in Sources */,
 				8591ACDF25D2C333007D1765 /* AppDelegate.swift in Sources */,
 				8591ACE125D2C333007D1765 /* SceneDelegate.swift in Sources */,
